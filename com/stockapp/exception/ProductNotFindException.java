@@ -1,0 +1,26 @@
+package com.stockapp.exception;
+
+public class ProductNotFindException extends BaseAppExcetpion {
+    private Integer id;
+    private String name;
+    public ProductNotFindException(Integer id,String name){
+        super(messagebuilder(id, name));
+        this.id = id;
+        this.name = name;
+    }
+    private static String messagebuilder(Integer id,String name){
+        if (id == null && name != null) {
+            return "product not found name:"+name;
+        }
+        if (id !=null && name == null) {
+            return "product not found id:"+id;
+        }
+        return"product not found (no argument specified).";
+    }
+    public Integer getId() {
+        return id;
+    }
+    public String getName() {
+        return name;
+    }
+}

@@ -1,0 +1,8 @@
+1-learn genirics and use them in the nexts project.
+2-learn ORM jpa / habirnate,for automation orm .
+3-learn connection pooling,implents simple one and use frameswork hikariCP.
+4-learn maven to build automation for prject instead of manual building and compling .
+5-learn Junits to automate test and run them automaticly,istead of manual test.
+6-learn about mockable object for test class that use ressorce like dao.
+7-learn javaFX basic in palce of console UI,with architucter requirment.
+8-start basic netwokr start from basic level to the heighr level (spring boot.).

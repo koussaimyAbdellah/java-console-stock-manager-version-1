@@ -1,0 +1,28 @@
+# Maven build output
+target/
+
+# Compiled Java classes and Eclipse build output
+bin/
+*.class
+
+# Local database configuration
+db.properties
+
+# Application logs
+logs/
+*.log
+
+# IDE metadata
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
