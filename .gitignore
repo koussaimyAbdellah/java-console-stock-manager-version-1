@@ -11,6 +11,7 @@ db.properties
 # Application logs
 logs/
 *.log
+*.txt
 
 # IDE metadata
 .idea/
